@@ -1,0 +1,255 @@
+  #root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 748px;
+  height: 775px;
+  background-color: #f9f9f9;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+}
+
+h1{
+  font-size: 1.2rem;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.tabContainer{
+  display: flex;
+  width: fit-content;
+  border: 1px #D9D9D9 solid;
+  height: 32px;
+  border-radius: 5px;
+}
+
+.tabs{
+  font-size: 14px;
+  color: black;
+  text-transform: capitalize;
+  list-style: none;
+  padding: 4px 10px 4px 10px;
+  border: #D9D9D9 1px solid;
+  color: #4A4A4A;
+}
+
+.tabs:nth-child(3){
+  background-color: #2196F3;
+  color: white;
+  border: 1px #2196F3 solid;
+}
+
+.statusContainer{
+  max-width: 608px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul:nth-child(1){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul > li{
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.status{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #4A4A4A;
+}
+
+.statusScore{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #A0B0B9;
+}
+
+.statusBarConatainer{
+  width: full;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.progressBar{
+  width: full;
+  height: 8px;
+  display: flex;
+  list-style: none;
+}
+
+.progress{
+  border: 1px white solid;
+}
+
+.progress:nth-child(1){
+  width: 35%;
+  background-color: #FFCC00;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.progress:nth-child(2){
+  width: 30%;
+  background-color: #5856D5;
+}
+
+.progress:nth-child(3){
+  width: 25%;
+  background-color: #2196F3;
+}
+
+.progress:nth-child(4){
+  width: 10%;
+  background-color: #A0B0B9;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.errorList{
+  width: 100%;
+  height: fit-content;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.errorList > li{
+  width: fit-content;
+  gap: 5px;
+}
+
+.mainsection{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.firstCard{
+  max-width: 609px;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.firstRow{
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.imageContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: fit-content;
+}
+
+.arrowImage{
+  width: fit-content;
+  height: fit-content;
+}
+
+.secondRow{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.cardBoldText{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.cardSmallText{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #A0B0B9;
+}
+
+.cardSmallText>span{
+  color: #4A4A4A;
+}
+
+.cardSmallText:nth-child(2){
+  color: #2196F3;
+}
+
+.span{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.firstSpan > p{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.secondSpan{
+  color: #A0B0B9;
+}
+
+.secondSpan > p{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.borderShadow{
+  border: #EFF1F4 1px solid;
+  width: 541px;
+}
+
+@media screen and (max-width: 700px) {
+  .firstCard{
+    /* flex-direction: column; */
+  }
+}
