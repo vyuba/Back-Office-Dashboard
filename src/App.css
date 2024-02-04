@@ -170,7 +170,8 @@ ul > li{
   align-items: center;
   justify-content: center;
   gap: 6px;
-  width: fit-content;
+  width: 100px;
+  height: fit-content;
 }
 
 .arrowImage{
