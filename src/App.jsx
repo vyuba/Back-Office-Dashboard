@@ -81,7 +81,7 @@ function App() {
 
         <div className='mainsection'>
           <Card 
-            image="src/assets/Group 28.png"
+            image="../src/assets/Group 28.png"
             firsttext="Searches"
             secondText="29 380"
             thirdText="27 985"
@@ -93,7 +93,7 @@ function App() {
           />
           <div className='borderShadow'></div>
           <Card
-            image="src/assets/Group 11.png"
+            image="../src/assets/Group 11.png"
             firsttext="Clicks"
             secondText="243"
             thirdText="280"
@@ -105,7 +105,7 @@ function App() {
           />
           <div className='borderShadow'></div>
           <Card
-            image="src/assets/Group 11 (1).png"
+            image="../src/assets/Group 11 (1).png"
             firsttext="Sales"
             secondText="24"
             thirdText="24"
