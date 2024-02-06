@@ -1,7 +1,9 @@
 // import { useState } from 'react'
 import './App.css'
 import Card from '../src/Card.jsx'
-import AlertImage from "../assets/Group 11.png"
+import AlertImage2 from "../assets/Group 11.png"
+import AlertImage1 from "../assets/Group 11 (1).png"
+import AlertImage3 from "../assets/Group 28.png"
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -82,7 +84,7 @@ function App() {
 
         <div className='mainsection'>
           <Card 
-            image="../assets/Group 28.png"
+            image={AlertImage3}
             firsttext="Searches"
             secondText="29 380"
             thirdText="27 985"
@@ -94,7 +96,7 @@ function App() {
           />
           <div className='borderShadow'></div>
           <Card
-            image= {AlertImage}
+            image= {AlertImage2}
             firsttext="Clicks"
             secondText="243"
             thirdText="280"
@@ -106,7 +108,7 @@ function App() {
           />
           <div className='borderShadow'></div>
           <Card
-            image="../assets/Group 11 (1).png"
+            image={AlertImage1}
             firsttext="Sales"
             secondText="24"
             thirdText="24"
