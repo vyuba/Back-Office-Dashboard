@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 import './App.css'
 import Card from '../src/Card.jsx'
+import AlertImage from "../assets/Group 11.png"
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -93,7 +94,7 @@ function App() {
           />
           <div className='borderShadow'></div>
           <Card
-            image="../assets/Group 11.png"
+            image= {AlertImage}
             firsttext="Clicks"
             secondText="243"
             thirdText="280"
