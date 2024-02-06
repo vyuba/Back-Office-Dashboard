@@ -6,7 +6,7 @@ function Card(props){
             <div className="firstRow">
                 <div className='imageContainer'>
                     <img src={props.image} alt="" srcset="" />
-                    <img className="arrowImage" src="../src/assets/Combined Shape.png" alt="" srcset="" />
+                    <img className="arrowImage" src="../public/assets/Combined Shape.png" alt="" srcset="" />
                 </div>
                 <div>
                 <p className="cardBoldText">{props.firsttext}</p>
